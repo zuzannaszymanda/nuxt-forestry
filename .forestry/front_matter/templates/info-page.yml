@@ -45,5 +45,14 @@ fields:
     color_format: Hex
   description: Choose text color for the info page
   default: "#EBEBEB"
+- name: content
+  type: blocks
+  label: content
+  template_types:
+  - blog-post
+  - info-page
+  config:
+    min: 
+    max: 
 pages:
 - content/data/info.json
