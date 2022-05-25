@@ -38,6 +38,14 @@ fields:
     schema:
       format: markdown
   label: description
+- name: content
+  type: blocks
+  label: content
+  template_types:
+  - info-page
+  config:
+    min: 
+    max: 
 pages:
 - content/blog-posts/an-essay-on-walking.md
 - content/blog-posts/ne-te-quaesiveris-extra.md
